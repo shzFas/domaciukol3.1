@@ -68,7 +68,7 @@ function main(dtoIn = {}) {
     return dtoOut;
 }
 
-const dtoIn = { count: 5, age: { min: 19, max: 35 } };
+const dtoIn = { count: 10, age: { min: 19, max: 35 } };
 console.log(main(dtoIn));
 
 module.exports = { main };
